@@ -29,8 +29,6 @@ builder.Services.AddSingleton<IDynamoDBContext, DynamoDBContext>();
 builder.Services.AddScoped<RandomFactClient>();
 builder.Services.AddScoped<WeatherClient>();
 builder.Services.AddScoped<HolidayClient>();
-builder.Services.AddScoped<WordOfDayClient>();
-builder.Services.AddScoped<DefinitionOfWordClient>();
 builder.Services.AddScoped<TrackOfDayClient>();
 builder.Services.AddScoped<FindMusicUriClient>();
 builder.Services.AddScoped<TaskClient>();
