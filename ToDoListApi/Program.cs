@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen(c => {
     c.CustomSchemaIds(type => type.FullName);
    
 });
-var credentials = new BasicAWSCredentials("AKIAWDR5ACKCWYVL25NG", "GQvl7UEz4aKxTixwIhAZwB4IaFkoeFqMS/UFhE8d");
+var credentials = new BasicAWSCredentials("", "");
 var config = new AmazonDynamoDBConfig()
 {
     RegionEndpoint = RegionEndpoint.EUWest3
